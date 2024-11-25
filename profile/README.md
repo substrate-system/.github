@@ -20,7 +20,8 @@ __*featuring*__
 
 ## Misc
 
-* [tapzero](https://github.com/substrate-system/tapzero) -- Zero dependency test framework
-* [dom](https://github.com/substrate-system/dom) -- Helpers for working with the DOM in tests
+* [@substrate-system/tapzero](https://github.com/substrate-system/tapzero) -- Zero dependency test framework
+* [@substrate-system/dom](https://github.com/substrate-system/dom) -- Helpers for working with the DOM in tests
 * [route-event](https://github.com/substrate-system/route-event) -- Simple client side route event
-* [routes](https://github.com/substrate-system/routes) -- Route matcher
+* [@substrate-system/routes](https://github.com/substrate-system/routes) -- Route matcher
+* [@substrate-system/debug](https://github.com/substrate-system/debug) -- Debug utility
