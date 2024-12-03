@@ -21,7 +21,7 @@
         },
         "repositoryUrl": {
             "url": "https://github.com/substrate-system/drag-drop",
-            "wellKnown": "https://github.com/substrate-system/drag-drop/blob/main/.well-known/funding-manifest-urls"
+            "wellKnown": "https://raw.githubusercontent.com/substrate-system/drag-drop/refs/heads/main/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
         "tags": ["drag", "drop", "browser"]
