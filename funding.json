@@ -17,11 +17,11 @@
         "description": "HTML5 drag & drop for humans",
         "webpageUrl": {
             "url": "https://substrate-system.github.io/drag-drop/",
-            "wellKnown": "https://substrate-system.github.io/drag-drop/.well-known/"
+            "wellKnown": "https://substrate-system.github.io/drag-drop/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
             "url": "https://github.com/substrate-system/drag-drop",
-            "wellKnown": "https://github.com/substrate-system/drag-drop/blob/main/.well-known/"
+            "wellKnown": "https://github.com/substrate-system/drag-drop/blob/main/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
         "tags": ["drag", "drop", "browser"]
