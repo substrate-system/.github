@@ -21,7 +21,33 @@ A Low Profile Component Framework
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
 
+## Conventions
+
+There is a strict convention with how these components are factored. To keep
+server-side rendering easy, an isomorphic file is exposed at `/ssr`. This file
+exposes a single function , `html`, that takes attributes as an object and
+returns a string of HTML.
+
+The frontend component uses this to render itself in the [`connectedCallback`](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks)
+function.
+
+This makes it easy to render a component serverside. Just import the
+`/ssr` path:
+
+```js
+import { html } from '@substrate-system/example-component/ssr'
+
+// return an HTML string
+html({
+    disabled: true,
+    placeholder: 'hello'
+})
+```
+
+
 ## Misc
+
+Some other frontend libraries:
 
 * [@substrate-system/tapzero](https://github.com/substrate-system/tapzero) &mdash;
 Zero dependency test framework
