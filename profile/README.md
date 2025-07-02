@@ -24,7 +24,7 @@ A Low Profile Component Framework
 ## Conventions
 
 There is a strict convention with how these components are factored. To keep
-server-side rendering easy, an isomorphic file is exposed at `/ssr`. This file
+server-side rendering easy, an isomorphic file is exposed at `/html`. This file
 exposes a single function , `html`, that takes attributes as an object and
 returns a string of HTML.
 
@@ -32,10 +32,10 @@ The frontend component uses this to render itself in the [`connectedCallback`](h
 function.
 
 This makes it easy to render a component serverside. Just import the
-`/ssr` path:
+`/html` path:
 
 ```js
-import { html } from '@substrate-system/example-component/ssr'
+import { html } from '@substrate-system/example-component/html'
 
 // return an HTML string
 html({
