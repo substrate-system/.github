@@ -25,7 +25,7 @@ A Low Profile Component Framework
 
 There is a strict convention with how these components are factored. To keep
 server-side rendering easy, an isomorphic file is exposed at `/html`. This file
-exposes a single function , `html`, that takes attributes as an object and
+exposes a single function, `html`, that takes attributes as an object and
 returns a string of HTML.
 
 The frontend component uses this to render itself in the [`connectedCallback`](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks)
