@@ -11,7 +11,6 @@ __*featuring*__
 
 ### see also
 
-* [substratesystem.com](https://substratesystem.com/)
 * [@substrate-system/tonic](https://github.com/substrate-system/tonic) &mdash;
 A Low Profile Component Framework
 * [@substrate-system/template-web-component](https://github.com/substrate-system/template-web-component)
@@ -21,6 +20,7 @@ A Low Profile Component Framework
 * [Where web components shine](https://daverupert.com/2024/10/super-web-components-sunshine/)
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
+* <a rel="me" href="https://substratesystem.com/">substratesystem.com</a>
 
 ## SSR
 
