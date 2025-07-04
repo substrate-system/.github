@@ -11,6 +11,7 @@ __*featuring*__
 
 ### see also
 
+* [substratesystem.com](https://substratesystem.com/)
 * [@substrate-system/tonic](https://github.com/substrate-system/tonic) &mdash;
 A Low Profile Component Framework
 * [@substrate-system/template-web-component](https://github.com/substrate-system/template-web-component)
@@ -21,14 +22,14 @@ A Low Profile Component Framework
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
 
-## Conventions
+## SSR
 
-There is a strict convention with how these components are factored. To keep
-server-side rendering easy, an isomorphic file is exposed at `/html`. This file
-exposes a single function, `html`, that takes attributes as an object and
-returns a string of HTML.
+To keep server-side rendering easy, an isomorphic file is exposed at `/html`.
+This file exposes a single function, `html`, that takes attributes as an object
+and returns a string of HTML.
 
-The frontend component uses this to render itself in the [`connectedCallback`](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks)
+The frontend component uses this to render itself in the
+[`connectedCallback`](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks)
 function.
 
 This makes it easy to render a component serverside. Just import the
