@@ -11,12 +11,16 @@ __*featuring*__
 
 ### see also
 
+* [@substrate-system/tapout](https://github.com/substrate-system/tapout) &mdash;
+  The easiest way to run tests in a browser from the command line.
 * [@substrate-system/tonic](https://github.com/substrate-system/tonic) &mdash;
-A Low Profile Component Framework
+  Low Profile Component Framework
 * [@substrate-system/template-web-component](https://github.com/substrate-system/template-web-component)
-&mdash;  A template for vanilla web componenets
+&mdash;
+  A template for vanilla web componenets
 * [@substrate-system/web-component](https://github.com/substrate-system/web-component)
-&mdash; A minimal parent component to inherit from
+&mdash;
+  A minimal parent component to inherit from
 * [Where web components shine](https://daverupert.com/2024/10/super-web-components-sunshine/)
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
