@@ -24,7 +24,6 @@ __*featuring*__
 * [Where web components shine](https://daverupert.com/2024/10/super-web-components-sunshine/)
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
-* <a rel="me" href="https://substratesystem.com/">substratesystem.com</a>
 
 ## SSR
 
