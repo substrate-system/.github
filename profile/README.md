@@ -25,10 +25,12 @@ __*featuring*__
 * [HTML Web Components](https://gomakethings.com/html-web-components/)
 * [Let's create a Web Component from scratch!](https://gomakethings.com/lets-create-a-web-component-from-scratch/)
 
-## SSR
+## Conventions
+
+### SSR
 
 To keep server-side rendering easy, an isomorphic file is exposed at `/html`.
-This file exposes a single function, `html`, that takes attributes as an object
+This file exposes a single function that takes attributes as an object
 and returns a string of HTML.
 
 The frontend component uses this to render itself in the
@@ -39,7 +41,7 @@ This makes it easy to render a component serverside. Just import the
 `/html` path:
 
 ```js
-import { html } from '@substrate-system/example-component/html'
+import { render } from '@substrate-system/example-component/html'
 
 // return an HTML string
 html({
