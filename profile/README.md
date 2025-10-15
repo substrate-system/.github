@@ -96,7 +96,7 @@ Web components and related libraries.
 
 ## Cryptography
 
-Modules that use the [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API),
+Some modules that use the [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API),
 for cryptography in the browser.
 
 * [@substrate-system/keys](https://github.com/substrate-system/keys) &mdash;
