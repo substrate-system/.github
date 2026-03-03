@@ -1,4 +1,4 @@
-# substrate system
+# mycelial systems
 
 <details><summary><h2>Contents</h2></summary>
 
@@ -39,7 +39,7 @@ This makes it easy to render a component serverside. Just import the
 `/html` path:
 
 ```js
-import { render } from '@substrate-system/example-component/html'
+import { render } from '@mycelial-system/example-component/html'
 
 // return an HTML string
 html({
