@@ -1,6 +1,4 @@
-# substrate system
-
-Building blocks for the frontend.
+# hello system
 
 <details><summary><h2>Contents</h2></summary>
 
